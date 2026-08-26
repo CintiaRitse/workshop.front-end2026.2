@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex; 
+    background-color: rgba(58, 145, 37, 0.781);
+    padding: 16px;
+    color: rgb(252, 252, 252);
+    align-items: center;
+    margin-bottom: 10px;
+}
+.navbar nav a {
+    color:  rgb(252, 252, 252);
+    text-decoration: none;
+    padding: 10px;
+}
+.hero{
+    width: 100%;
+    min-height: 600px;
+    background-image:url("img/OIP.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+}
+.hero-conteudo{
+    max-width: 600px;
+    color: white;
+}
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.botao{
+    display: inline-block;
+    background-color:rgba(58, 145, 37, 0.781);
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+}
