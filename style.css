@@ -19,7 +19,6 @@ body {
   background-color: var(--fundo);
   color: var(--texto);
   line-height: 1.6;
-  overflow: hidden;
 }
 /* Cards de destinos */
 .container {
@@ -126,12 +125,6 @@ body {
 
 
 
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .navbar{
     justify-content: space-between;
     display: flex; 
@@ -149,7 +142,7 @@ body {
 .hero{
     width: 100%;
     min-height: 600px;
-    background-image:url("img/OIP.webp");
+    background-image:url("img/fotorio.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
